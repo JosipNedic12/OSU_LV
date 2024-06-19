@@ -64,12 +64,3 @@ print(f"Postoji {length} vozila s rucnim mjenjacem")
 
 #Zadatak pod i)
 print(data.corr(numeric_only=True))
-
-'''
-Komentiranje zadnjeg zadatka:
-Velicine imaju dosta veliki korelaciju. Npr. broj obujam motora i broj cilindara su oko 0.9, dok je potrosnja oko 0.8 sto ukazuje na veliku korelaciju.
-Takodjer razlog zasto potrosnja u mpg ima veliku negativnu korelaciju je to sto je ta velicina obrnuta, odnosno, sto automobil vise trosi, broj je manji
-Npr: automobil koji trosi 25 MPG trosi vise nego automobil koji trosi 45 MPG. Dakle, ta velicina je obrnuta L/100km te takodjer, zbog toga dobivamo negativnu
-korelaciju. Sto je negativna korelacija blize -1 to je ona vise obrnuto proporcijalna, dok sto je blize 1, to je vise proporcijonalna. Vrijednosti oko 0
-nemaju nikakvu korelaciju s velicinom.
-'''
